@@ -6,6 +6,7 @@ using UnityEngine;
 [Serializable]
 public struct Player
 {
+    [SerializeField] private int _id;
     [SerializeField] private string _name;
     [SerializeField] private int _dotCounter;
     [SerializeField] private int _hp;

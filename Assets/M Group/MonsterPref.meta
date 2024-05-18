@@ -1,17 +1,9 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 <<<<<<<< HEAD:Assets/Plugins/Sirenix/Odin Inspector/Config/Resources.meta
 guid: 6b9ddf69bd82bc044a099b1360adb54a
 ========
 guid: 8385dbb95845b1e468202262c0f9b75b
 >>>>>>>> origin/spl:Assets/M Group/MonsterPref.meta
-=======
-<<<<<<<< HEAD:Assets/Plugins/Sirenix/Odin Inspector/Config/Resources/Sirenix.meta
-guid: 74aefb1b14ec2de4699c4be08be264c4
-========
-guid: a8f56b7748286ec43bec5046285fbeb9
->>>>>>>> origin/spl:Assets/Plugins/Sirenix/Odin Inspector/Config/Resources.meta
->>>>>>> origin/spl
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

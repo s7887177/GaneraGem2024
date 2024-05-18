@@ -2,4 +2,5 @@
 
 internal class ColliderView : MonoBehaviour
 {
+
 }
