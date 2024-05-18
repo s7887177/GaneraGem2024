@@ -1,8 +1,9 @@
-using System.Collections;
-using System.Collections.Generic;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
-internal class ItemView : MonoBehaviour
+public class ItemView : MonoBehaviour
 {
-    
+    [SerializeField, ReadOnly, TableColumnWidth(30)] private int _id;
+
+    public int id { get => _id; set => _id = value; }
 }
