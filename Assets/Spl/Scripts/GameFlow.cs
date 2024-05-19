@@ -41,6 +41,7 @@ public class GameFlow : MonoBehaviour
     {
         monsters.SetActive(false);
         items.SetActive(false);
+        correctItems.SetActive(false);
         ui.SetActive(true);
     }
   
@@ -48,6 +49,7 @@ public class GameFlow : MonoBehaviour
     {
         monsters.SetActive(false);
         items.SetActive(false);
+        correctItems.SetActive(false);
         ui.SetActive(true);
     }
     public void GameWin()
@@ -60,10 +62,16 @@ public class GameFlow : MonoBehaviour
 
     public void AfterDiaryPick()
     {
+        ui.SetActive(true) ;
+        diary.SetActive(false);
+
+    }
+    public void StartSecondRound()
+    {
         monsters.SetActive(true);
         correctItems.SetActive(true);
         ui.SetActive(false);
-
     }
+    
 
 }
