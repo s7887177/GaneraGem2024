@@ -11,4 +11,5 @@ public struct Item
     [SerializeField] private string _name;
     [SerializeField] private Sprite _image;
     public int id { get => _id; set => _id = value; }
+    public string name { get => _name; }
 }

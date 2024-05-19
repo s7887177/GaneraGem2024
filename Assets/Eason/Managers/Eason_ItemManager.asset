@@ -10,60 +10,66 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5c3ee095d838bd943b71deb3bca8cc80, type: 3}
-  m_Name: Item Manager
+  m_Name: Eason_ItemManager
   m_EditorClassIdentifier: 
   _data:
   - _id: 0
-    _name: 0-Mirror
+    _name: 0
     _image: {fileID: 0}
   - _id: 1
-    _name: 1-Boyfriend's Photo
+    _name: 1
     _image: {fileID: 0}
   - _id: 2
-    _name: 2-Dictionary
+    _name: 2
     _image: {fileID: 0}
   - _id: 3
-    _name: 3-
+    _name: 3
     _image: {fileID: 0}
   - _id: 4
-    _name: 4-
+    _name: 4
     _image: {fileID: 0}
   - _id: 5
-    _name: 5-Shiriken
+    _name: 5
     _image: {fileID: 0}
   - _id: 6
-    _name: 6-Needle
+    _name: 6
     _image: {fileID: 0}
   - _id: 7
-    _name: 7-Scapa
+    _name: 7
     _image: {fileID: 0}
   - _id: 8
-    _name: 8-Key
+    _name: 8
     _image: {fileID: 0}
   - _id: 9
-    _name: 9-Salt Bae
+    _name: 9
     _image: {fileID: 0}
   - _id: 10
-    _name: 10-Liquid
+    _name: 10
     _image: {fileID: 0}
   - _id: 11
-    _name: 11-Fish
+    _name: 11
     _image: {fileID: 0}
   - _id: 12
-    _name: 12-Make Up
+    _name: 12
     _image: {fileID: 0}
   - _id: 13
-    _name: 13-Ass Medicine
+    _name: 13
     _image: {fileID: 0}
   - _id: 14
-    _name: 14-Whisp
+    _name: 14
     _image: {fileID: 0}
   - _id: 15
-    _name: 15-Uncle Roger
+    _name: 15
     _image: {fileID: 0}
   - _id: 16
-    _name: 16-Scissors
+    _name: 16
     _image: {fileID: 0}
   - _id: 17
-    _name: 17-Knife
+    _name: 17
+    _image: {fileID: 0}
+  - _id: 18
+    _name: 18
+    _image: {fileID: 0}
+  - _id: 19
+    _name: 19
     _image: {fileID: 0}

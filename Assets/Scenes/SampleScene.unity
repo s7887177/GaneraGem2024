@@ -567,6 +567,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: da6504b223e52ed4cad9ed092e738a45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _bodyCollider: {fileID: 0}
+  _weakPointCollider: {fileID: 0}
   _damageEffect: {fileID: 1132912609}
 --- !u!1001 &1050939622
 PrefabInstance:
