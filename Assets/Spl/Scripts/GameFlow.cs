@@ -21,6 +21,7 @@ public class GameFlow : MonoBehaviour
         items.SetActive(false);
         correctItems.SetActive(false);
         ui.SetActive(true);
+        diary.SetActive(false);
     }
     
     public void ExitGame()
@@ -51,6 +52,7 @@ public class GameFlow : MonoBehaviour
         items.SetActive(false);
         correctItems.SetActive(false);
         ui.SetActive(true);
+        diary.SetActive(false);
     }
     public void GameWin()
     {
