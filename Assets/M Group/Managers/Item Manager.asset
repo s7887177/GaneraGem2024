@@ -14,62 +14,56 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
   - _id: 0
-    _name: 
+    _name: 0-Mirror
     _image: {fileID: 0}
   - _id: 1
-    _name: 
+    _name: 1-Boyfriend's Photo
     _image: {fileID: 0}
   - _id: 2
-    _name: 
+    _name: 2-Dictionary
     _image: {fileID: 0}
   - _id: 3
-    _name: 
+    _name: 3-
     _image: {fileID: 0}
   - _id: 4
-    _name: 
+    _name: 4-
     _image: {fileID: 0}
   - _id: 5
-    _name: 
+    _name: 5-Shiriken
     _image: {fileID: 0}
   - _id: 6
-    _name: 
+    _name: 6-Needle
     _image: {fileID: 0}
   - _id: 7
-    _name: 
+    _name: 7-Scapa
     _image: {fileID: 0}
   - _id: 8
-    _name: 
+    _name: 8-Key
     _image: {fileID: 0}
   - _id: 9
-    _name: 
+    _name: 9-Salt Bae
     _image: {fileID: 0}
   - _id: 10
-    _name: 
+    _name: 10-Liquid
     _image: {fileID: 0}
   - _id: 11
-    _name: 
+    _name: 11-Fish
     _image: {fileID: 0}
   - _id: 12
-    _name: 
+    _name: 12-Make Up
     _image: {fileID: 0}
   - _id: 13
-    _name: 
+    _name: 13-Ass Medicine
     _image: {fileID: 0}
   - _id: 14
-    _name: 
+    _name: 14-Whisp
     _image: {fileID: 0}
   - _id: 15
-    _name: 
+    _name: 15-Uncle Roger
     _image: {fileID: 0}
   - _id: 16
-    _name: 
+    _name: 16-Scissors
     _image: {fileID: 0}
   - _id: 17
-    _name: 
-    _image: {fileID: 0}
-  - _id: 18
-    _name: 
-    _image: {fileID: 0}
-  - _id: 19
-    _name: 
+    _name: 17-Knife
     _image: {fileID: 0}
