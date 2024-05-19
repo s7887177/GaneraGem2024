@@ -11,6 +11,7 @@ public class GameFlow : MonoBehaviour
     [SerializeField] private GameObject items;
     [SerializeField] private GameObject correctItems;
     [SerializeField] private GameObject ui;
+    [SerializeField] private GameObject diary;
     
 
 
@@ -18,8 +19,8 @@ public class GameFlow : MonoBehaviour
     {
         monsters.SetActive(false);
         items.SetActive(false);
-        ui.SetActive(false);
         correctItems.SetActive(false);
+        ui.SetActive(false);
     }
     
     public void ExitGame()
@@ -27,8 +28,9 @@ public class GameFlow : MonoBehaviour
         Application.Quit();
     }
     public void MonsterBegin()
-    {
+    {   
         monsters.SetActive(true);
+        ui.SetActive(false);
     }
     public void StartGame()
     {
@@ -40,6 +42,13 @@ public class GameFlow : MonoBehaviour
         monsters.SetActive(false);
         items.SetActive(false);
         ui.SetActive(true);
+    }
+    public void GameWin()
+    {
+        monsters.SetActive(false);
+        items.SetActive(false);
+        ui.SetActive(true);
+        diary.SetActive(true);
     }
     public void AllMonsterDefeated()
     {
@@ -53,6 +62,7 @@ public class GameFlow : MonoBehaviour
         monsters.SetActive(true);
         items.SetActive(true);
         correctItems.SetActive(true);
+        ui.SetActive(false);
 
     }
 
