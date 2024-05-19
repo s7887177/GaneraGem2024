@@ -20,21 +20,28 @@ public class GameFlow : MonoBehaviour
         monsters.SetActive(false);
         items.SetActive(false);
         correctItems.SetActive(false);
-        ui.SetActive(false);
+        ui.SetActive(true);
     }
     
     public void ExitGame()
     {
         Application.Quit();
     }
+    public void StartGame()
+    {
+        items.SetActive(true);
+    }
+
     public void MonsterBegin()
     {   
         monsters.SetActive(true);
         ui.SetActive(false);
     }
-    public void StartGame()
+    public void AllMonsterDefeated()
     {
-        items.SetActive(true);
+        monsters.SetActive(false);
+        items.SetActive(false);
+        ui.SetActive(true);
     }
   
     public void GameOver()
@@ -50,17 +57,10 @@ public class GameFlow : MonoBehaviour
         ui.SetActive(true);
         diary.SetActive(true);
     }
-    public void AllMonsterDefeated()
-    {
-        monsters.SetActive(false);
-        items.SetActive(false);
-        ui.SetActive(true);
-    }
 
     public void AfterDiaryPick()
     {
         monsters.SetActive(true);
-        items.SetActive(true);
         correctItems.SetActive(true);
         ui.SetActive(false);
 
