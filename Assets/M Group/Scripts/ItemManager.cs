@@ -2,7 +2,8 @@ using Sirenix.OdinInspector;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+namespace zihui
+{
 [CreateAssetMenu(fileName = "Item Manager", menuName = "M Group/Item Manager")]
 public class ItemManager : ScriptableObject
 {
@@ -17,4 +18,6 @@ public class ItemManager : ScriptableObject
             _data[i].id = i;
         }
     }
+}
+
 }
