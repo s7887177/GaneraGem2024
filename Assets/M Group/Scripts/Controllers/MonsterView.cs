@@ -1,10 +1,7 @@
-﻿using System.Threading;
+﻿using Sirenix.OdinInspector;
+using System.Linq;
+using System.Threading;
 using UnityEngine;
-
-public interface IMonsterController
-{
-
-}
 internal class MonsterView : MonoBehaviour
 {
     [SerializeField] private ColliderView _bodyCollider;
@@ -13,4 +10,10 @@ internal class MonsterView : MonoBehaviour
     public ParticleSystem damageEffect { get => _damageEffect; }
     internal ColliderView BodyCollider { get => _bodyCollider; }
     internal ColliderView WeakPointCollider { get => _weakPointCollider; }
+
+    [Button]private void AutoFill()
+    {
+        _bodyCollider = GetComponentsInChildren<ColliderView>().FirstOrDefault(o=>o.name == "Monster");
+        _weakPointCollider = GetComponentsInChildren<ColliderView>().FirstOrDefault(o => o.name == "Collider");
+    }
 }

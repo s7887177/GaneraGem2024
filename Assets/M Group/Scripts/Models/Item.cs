@@ -12,4 +12,5 @@ public struct Item
     [SerializeField] private Texture2D _image;
     public int id { get => _id; set => _id = value; }
     public string name { get => _name; }
+    public Texture2D image { get => _image; }
 }

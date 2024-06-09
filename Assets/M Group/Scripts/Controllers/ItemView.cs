@@ -20,7 +20,8 @@ public class ItemView : MonoBehaviour
     }
     private void Update()
     {
-        _nameView.text = _item.name;
+        _nameView.text = _item.image.name;
+        _renderer.material.mainTexture = _item.image;
         _nameView.transform.position = _positionProvider.GetLabelViewPosition();
         _nameView.transform.rotation = Quaternion.LookRotation(Camera.main.transform.forward, Vector3.up);
     }

@@ -11,7 +11,4 @@ public struct Player
     [SerializeField] private int _dotCounter;
     [SerializeField] private int _hp;
     [SerializeField] private int _sandwichCounter;
-
-
-
 }

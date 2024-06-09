@@ -7,7 +7,7 @@ public class ItemViewManager : MonoBehaviour
 {
     [SerializeField] private ItemManager _itemManager;
     [SerializeField] private ItemView _itemPrefab;
-    [SerializeField, TableList] private ItemView[] _itemViews;
+    [SerializeField] private ItemView[] _itemViews;
     [SerializeField] private Transform _container;
     [SerializeField] private Randomizer _randomizer;
 
